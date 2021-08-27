@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries</title>
+    <style>
+        #countrydiv {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        
+        .country {
+            text-align: center;
+            background-color: rgba(236, 11, 11, 0.836);
+            color: white;
+            border: 3px solid rgb(41, 29, 6);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h3>Country Details</h3>
+        <div id="country-details">
+
+        </div>
+    </section>
+    <h2 style="text-align: center;">All countries</h2>
+    <div id="countrydiv"></div>
+
+
+    <script src="countries.js"></script>
+</body>
+
+</html>
